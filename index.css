@@ -1,0 +1,36 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/010/839/386/original/aesthetic-minimal-cute-pastel-pink-wallpaper-illustration-perfect-for-wallpaper-backdrop-postcard-background-banner-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+div {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+}
+
+#meal_time {
+    font-size: 48px; /* Adjust the font size as desired */
+    text-align: center;
+    color: #ff7ba5; /* Pink text color */
+    background-color: #fff2f7; /* Light pink background */
+    border: 2px solid #fbd3e0; /* Pink border */
+    padding: 10px; /* Padding around the clock */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 3px 3px 5px #ff4f88; /* Pink shadow effect */
+}
